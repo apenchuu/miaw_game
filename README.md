@@ -1,7 +1,7 @@
-# CASLAB – Cozy 2D Farming Adventure
+# MIAW – Cozy 2D Farming Adventure
 
 ## Deskripsi
-CASLAB adalah game 2D cozy bertema farming dan eksplorasi. Tujuan utama pemain adalah menanam seed yang diberikan di awal permainan, menyiram tanaman tepat waktu, lalu memanen dan menjual hasil panen untuk mendapatkan coin.
+MIAW adalah game 2D cozy bertema farming dan eksplorasi. Tujuan utama pemain adalah menanam seed yang diberikan di awal permainan, menyiram tanaman tepat waktu, lalu memanen dan menjual hasil panen untuk mendapatkan coin.
 
 Tantangan utama ada pada manajemen waktu dan progres:
 - Jika telat menyiram, tanaman akan layu dan hilang.
