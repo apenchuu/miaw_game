@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run LibGDX Desktop",
+      "type": "shell",
+      "command": "./gradlew",
+      "args": ["lwjgl3:run"],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Build LibGDX Desktop Jar",
+      "type": "shell",
+      "command": "./gradlew",
+      "args": ["lwjgl3:jar"],
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

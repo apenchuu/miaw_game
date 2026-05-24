@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="25" nextobjectid="1">
+ <tileset firstgid="1" source="Grass.tsx"/>
+ <tileset firstgid="78" source="Hills.tsx"/>
+ <tileset firstgid="177" source="Chest.tsx"/>
+ <tileset firstgid="267" source="Wood_Bridge.tsx"/>
+ <tileset firstgid="282" source="Water.tsx"/>
+ <tileset firstgid="286" source="Basic_Grass_Biom_things.tsx"/>
+ <tileset firstgid="331" source="Wooden_House_Walls_Tilset.tsx"/>
+ <tileset firstgid="346" source="Basic Furniture.tsx"/>
+ <tileset firstgid="503" source="Doors.tsx"/>
+ <layer id="10" name="water" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAOpBgRGJsYOsannxj1A20vsl5620uKWQNlL6l41F762EuK3dS2dxSPYnQ8UGmP2umeGLNokeeoDUbtHVh7AVt4KLc=
+  </data>
+ </layer>
+ <layer id="1" name="grass" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYIAAXjTMgEUcH8ClHxewGkB7rbDog+mllb0wdbjsHuz2kgrQzcZnPy3txYbdB8hemN3UBvj86M5Am3AeBaMAG6BHHifFXnLtJsYsYvI7tewlF4/aO7D2AgBWtwzV
+  </data>
+ </layer>
+ <layer id="12" name="tree" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAAeUYGBgVGBhQAE7NCE0cGikA5JSB2AWJXIDbBoxYEPNHkNYB8TSLE0IEWUF6bgBpiATa/kwM8iDBDGUkNMf5EBoTCdqQDWFqkN4ClxYG2HwSUqWC/+zBNZ0PBX8SUIbQG5IYTtcpRUgG2chRfnUUI0NIf+OKX1PoAFyC1HIL5FxdNrH5i6mQvLPUfLpoQIKSO1vndhEB7BwDmqAzm
+  </data>
+ </layer>
+ <layer id="11" name="grass_line" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYIAAJjTMzDAwgG+A7AUBpgG0eySDgYrz4WCvBAlqJaloLwiIQ+3Hh6lt5yggDjAy0L9MZ8QjR47d2PyAzR88BMwh1W585iG7gxhAStgT8gc5gJiyZtRe2tkLAPRkAhU=
+  </data>
+ </layer>
+ <layer id="2" name="spawn_home" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg40DmAdo+CUTAKRsEoGAWjYBTQCgAAy6AAig==
+  </data>
+ </layer>
+ <layer id="3" name="to_home" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAMw6D4f2t4JnYCqxYAAF8Oy+oBJw==
+  </data>
+ </layer>
+ <layer id="6" name="hills" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAP/IDYH4oDiFBDSC2xIBKIo6A4mgg1hNSO2osdpCCx0/CoSUXDuNSOglEwCkbBKBgFo4CBAQCEaxDL
+  </data>
+ </layer>
+ <layer id="9" name="bridge_rusak1" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztyrENAAAIAkEYQN1/W2Npohv8dU+Q8AlL6b1Nl+8/AADAaPZzAD0=
+  </data>
+ </layer>
+ <layer id="16" name="bridge_bener1" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFuAAvIwMDHxbMzzjQLhsFo2AUjIJRMApGwWAGAGhmAGo=
+  </data>
+ </layer>
+ <layer id="13" name="bridge_rusak2" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A0wM040C4YBbQEAgMUv6P2jtpLCyA6Wl6NggECADruAIk=
+  </data>
+ </layer>
+ <layer id="17" name="bridge_bener2" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A0wM04MPYKjNo7au+ovaP2kghEB8jeUTAKAHjuALw=
+  </data>
+ </layer>
+ <layer id="7" name="pintu_hills" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIx30AXH/ANg7E4hnDYC9o2AUjIJRMApGAa0BAHqEAlE=
+  </data>
+ </layer>
+ <layer id="19" name="house_final_fix" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSjADrwZGRgigDgMjQYBX0ba2RuAx+ygIWAvAFhuA5w=
+  </data>
+ </layer>
+ <layer id="14" name="house_final" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSjADrwZGRh8sGAQ8GWknb0BeMwOoqG91AIA8bUCwA==
+  </data>
+ </layer>
+ <layer id="20" name="house_final_door_close" width="30" height="20" visible="0" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSggDfxgHGgXDG4AACGOAPo=
+  </data>
+ </layer>
+ <layer id="23" name="house_final_door_half" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSggDfxiHGgXDG4AACPOAPw=
+  </data>
+ </layer>
+ <layer id="24" name="house_final_door_open" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSggDfxkHGgXDG4AACKuAPs=
+  </data>
+ </layer>
+ <layer id="21" name="house_final_furniture" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSjAD2oYB9oFAwMKgP6uAOJCEv0PAOR4Ado=
+  </data>
+ </layer>
+ <layer id="22" name="house_final_bed" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYfCCVkYEhhZH+9uYB7cyl0F4A1dgBqQ==
+  </data>
+ </layer>
+ <layer id="15" name="final_house_furniture" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYfCCfEZXfA+T3MmJXO9gAABeYAYw=
+  </data>
+ </layer>
+ <layer id="8" name="chest1" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBjc4OBAO2AUjIJRMApGwSgYBaOARAAAonoAwg==
+  </data>
+ </layer>
+ <layer id="18" name="chest2" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFlIJ3A+2AUTAKRsEoGAWjYBQMKgAAk9EA7w==
+  </data>
+ </layer>
+ <layer id="16" name="coin" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYvOAb40C7gHQAALcLAPg=
+  </data>
+ </layer>
+</map>

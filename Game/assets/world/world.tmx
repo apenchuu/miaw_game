@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="39" nextobjectid="1">
+ <tileset firstgid="1" source="Grass.tsx"/>
+ <tileset firstgid="78" source="Water.tsx"/>
+ <tileset firstgid="82" source="Hills.tsx"/>
+ <tileset firstgid="181" source="Wooden_House_Walls_Tilset.tsx"/>
+ <tileset firstgid="196" source="Doors.tsx"/>
+ <tileset firstgid="200" source="Basic Furniture.tsx"/>
+ <tileset firstgid="357" source="Basic_Grass_Biom_things.tsx"/>
+ <tileset firstgid="402" source="Tilled_Dirt_Wide_v2.tsx"/>
+ <tileset firstgid="479" source="Basic Plants.tsx"/>
+ <tileset firstgid="491" source="Wood_Bridge.tsx"/>
+ <tileset firstgid="506" source="Free_Chicken_House.tsx"/>
+ <tileset firstgid="515" source="Chest.tsx"/>
+ <tileset firstgid="605" source="MonedaD.tsx"/>
+ <layer id="2" name="water" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzzY2Bg8EPDxAB0PbgwKfoHs73E2E2qXnqAoWgvOeFLqb3kxiulbh61l7r6ycUjzd7BiikBo/ZS3w5i7B5MII2RgSGdkf725gPtLMBiLwAozVHT
+  </data>
+ </layer>
+ <layer id="1" name="grass" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzNldEKwjAMRaO+ur2qn9LngV+nz/q5OjAYx01u2k40cFlHm54kDa3Ip+2fGhIahVu0F1o7EeaU4LL40fpCfHR+G4jVqzZOy57zPr9k47l/mTs43IwQl52v8o5AOh/ljOwAcipmvebm9ZXWq5ZrfVGOrJ+z5+T5aq2LvM8ww7X1auGiHrLjk+ObzdmLGfWMKmL2cHvtV1xWr1nRXce064gte78gZd6ktbi3Su5G2t4NxNTvWLH/tSHHKAYU/2XxvxYzqv2S+W96AH1YIQg=
+  </data>
+ </layer>
+ <layer id="34" name="to_kota" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUUAKmD7QDRsEoGAWjYBQMOgAApBEAmA==
+  </data>
+ </layer>
+ <layer id="35" name="spawn_kota" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2B4gOkD7YBRMApGwSgYBaMACgDq2QCY
+  </data>
+ </layer>
+ <layer id="31" name="bridge" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMFLBa0YIpjf4MAB2DqTdXxkheBSMHAAA8cAFpw==
+  </data>
+ </layer>
+ <layer id="38" name="bridge_bener" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMFLBa0YIpjf4wAjBI8Xer4wQPApGDgAA7pUHiQ==
+  </data>
+ </layer>
+ <layer id="14" name="plant_area1" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzTEOABAUBNH99+/QosUp7SHkRzEvmXokvFJCqq5F7rf7N9xM/i7/tjvJXwAAfncBX20FmA==
+  </data>
+ </layer>
+ <layer id="25" name="plant_area2" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzTESABAQBMG9/2dIkeKV9hOuBNNVE4+EF0pI1bXI/Xb/hpvJ3+Xfdif5CwDAjy4cWQWY
+  </data>
+ </layer>
+ <layer id="26" name="plant_area3" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzbEJACAQBMH7/jM1VVO1Sq8GgwdhBzZeCfhLCam6Frnf7t9wM/m7/NvuJH8BAO8ugp0FmA==
+  </data>
+ </layer>
+ <layer id="27" name="plant_area4" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzbEJACAQBMH7/jM1VVO1Sq8FkwdhBzZeCfhXCam6Frnf7t9wM/m7/NvuJH8BAG8uP4kFmA==
+  </data>
+ </layer>
+ <layer id="28" name="plant_area5" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzSEOACAQxMC9/zvAAhZ4JevxJ0gnqa4EAK8SUnUtcr/dv+Fm8nf5t91J/gL40wWlzQWY
+  </data>
+ </layer>
+ <layer id="29" name="plant_area6" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzaENACAQBMH7/h1gAQtUyVWAfEF2ktUrAcBbCam6Frnf7t9wM/m7/NvuJH8B/OMCYrkFmA==
+  </data>
+ </layer>
+ <layer id="12" name="tree" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzVVLsOgCAMhI/Fx4KPwUUX/1wYmhAsULBAvKVJL7TXF0LUgZJv32B8I+LnhEbiL8a3SlxTDg7k/UmIiWlqga/1lqJXvTH8sRcpzTF+MtxcmDulOcZvhts9nnIjPRHqY+3/Cvro54f/Crhauxubo+Vydvdm0ujWavem1e7ohnndXnHM9sqMoTJnywWbE26KaqlIxYGbotoQ/D1PxXkAY/cmLA==
+  </data>
+ </layer>
+ <layer id="32" name="flower" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAqGDqhjROW3M2JXRwu7BjOgllup7WdK4oeWcUtrAAAoVwOV
+  </data>
+ </layer>
+ <layer id="15" name="bit1" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJx7xsgwCkbBKBgFo2AUjIJRMAqoCAB/dwDo
+  </data>
+ </layer>
+ <layer id="16" name="bit2" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJx7zsgwCkbBKBgFo2AUjIJRMAqoCACI1wDp
+  </data>
+ </layer>
+ <layer id="17" name="bit3" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJx7wcgwCkbBKBgFo2AUjIJRMAqoCACSNwDq
+  </data>
+ </layer>
+ <layer id="18" name="bit4" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJx7ycgwCkbBKBgFo2AUjIJRMAqoCACblwDr
+  </data>
+ </layer>
+ <layer id="19" name="bitdone" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJx7xcgwCkbBKBgFo2AUjIJRMAqoCACk9wDs
+  </data>
+ </layer>
+ <layer id="20" name="gandum1" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJx7wMgwCkbBKBgFo2AUjIJRMAqoCABHNwDi
+  </data>
+ </layer>
+ <layer id="21" name="gandum2" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJx7yMgwCkbBKBgFo2AUjIJRMAqoCABQlwDj
+  </data>
+ </layer>
+ <layer id="22" name="gandum3" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJx7xMgwCkbBKBgFo2AUjIJRMAqoCABZ9wDk
+  </data>
+ </layer>
+ <layer id="23" name="gandum4" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJx7zMgwCkbBKBgFo2AUjIJRMAqoCABjVwDl
+  </data>
+ </layer>
+ <layer id="24" name="gandumdone" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJx7wsgwCkbBKBgFo2AUjIJRMAqoCABstwDm
+  </data>
+ </layer>
+ <layer id="13" name="rock" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA+mMBIvNp+EtSSa8dgAX1D0M2jYOiAiWSkL3L0DDQYrPmI3LJsFNA27Aill6FYl4yCoQEA+u8GNQ==
+  </data>
+ </layer>
+ <layer id="33" name="selling_place" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzbkNADAMw0BJ+6+cx7V7pwkPYE1p1rK0q+PhURfJVfL4CwAAvncBMIwDBw==
+  </data>
+ </layer>
+ <layer id="4" name="spawn" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BkAt6BdsAoGAWjYBSMgmELAFx0AA4=
+  </data>
+ </layer>
+ <layer id="3" name="house_line" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAEW4F4Gx68HYseaoBdBOT3jNpLFbAfiA8gYQY0/kEa2TsKRsEoGAWjYBSMFAAAq+UQyQ==
+  </data>
+ </layer>
+ <layer id="5" name="house_floor" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhcYDcePGov7dwwCkbBKBgFo2AUjALqAQC3JBAT
+  </data>
+ </layer>
+ <layer id="6" name="doors_close" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIx0cHWgHjIJRMApGwSgYBcMMAACzdwDG
+  </data>
+ </layer>
+ <layer id="7" name="doors_half" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIx0cH2gHjIJRMApGwSgYBcMMAADCLwDI
+  </data>
+ </layer>
+ <layer id="8" name="doors_open" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIx0cG2gHjIJRMApGwSgYBcMMAAC60wDH
+  </data>
+ </layer>
+ <layer id="9" name="bed" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYCANXCZRPbXAnQGydxSMglEwCkbBKBgFo4BUAAAa8QGw
+  </data>
+ </layer>
+ <layer id="36" name="chest" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAoGLxBmGmgXjIJRQDoAAEJ2ABY=
+  </data>
+ </layer>
+ <layer id="37" name="coin" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYvCCWaaBdQDoAAEwqAGA=
+  </data>
+ </layer>
+ <layer id="10" name="house_object" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAOTiCxT0LplzjUUhM8gGIYuEsHO0HgGRTTGzwcADtHwSgYBaNgFIyCUUBbAADKpQfF
+  </data>
+ </layer>
+ <layer id="11" name="keset" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwV8G2gHjIJRMApGwSgYBaOAKgAAj4EA9w==
+  </data>
+ </layer>
+</map>
