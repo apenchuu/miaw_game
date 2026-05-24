@@ -145,7 +145,7 @@ function isOnline() {
 function makeDefaultProgress(playerId) {
   return {
     player_id: playerId,
-    coins: 10000,
+    coins: 0,
     player_fatigue: 0.0,
     current_day: 1,
     game_time: 6.0,
@@ -232,7 +232,7 @@ async function createUser(username, password_hash) {
       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19)`,
       [
         user.id,
-        10000,
+        0,
         0.0,
         1,
         6.0,
@@ -293,7 +293,7 @@ async function upsertProgress(playerId, progress) {
   const next = {
     ...current,
     player_id: playerId,
-    coins: Number(progress?.coins ?? current.coins ?? 10000),
+    coins: Number(progress?.coins ?? current.coins ?? 0),
     player_fatigue: Number(progress?.player_fatigue ?? current.player_fatigue ?? 0.0),
     current_day: Number(progress?.current_day ?? current.current_day ?? 1),
     game_time: Number(progress?.game_time ?? current.game_time ?? 6.0),

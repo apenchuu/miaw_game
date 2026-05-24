@@ -1,5 +1,6 @@
 package com.steven.frontend.features;
 
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
@@ -10,6 +11,26 @@ import com.steven.frontend.Main;
 
 public final class CompletionFeature {
     private CompletionFeature() {}
+
+    public static void activateGameCompleted(Main main) {
+        if (main == null) return;
+        main.gameCompletedLocked = true;
+        main.gameCompletedShown = true;
+
+        if (Gdx.app != null) {
+            Gdx.app.postRunnable(() -> {
+                initializeGameCompletedUI(main);
+                if (main.gameCompleteStage != null) {
+                    Gdx.input.setInputProcessor(main.gameCompleteStage);
+                }
+            });
+        } else {
+            initializeGameCompletedUI(main);
+            if (main.gameCompleteStage != null) {
+                Gdx.input.setInputProcessor(main.gameCompleteStage);
+            }
+        }
+    }
 
     public static void initializeGameCompletedUI(Main main) {
         if (main.gameCompleteStage != null) return;
@@ -78,21 +99,16 @@ public final class CompletionFeature {
             && main.houseFinalRepaired && ChestFeature.worldChestClaimed && ChestFeature.worldPusatChest1Claimed && ChestFeature.worldPusatChest2Claimed
             && main.worldCoinCollected;
 
-        // Debug logging to trace completion condition
-        System.out.println("[completion] worldBridgeRepaired=" + main.worldBridgeRepaired
-            + " worldPusatBridge1=" + main.worldPusatBridge1Repaired
-            + " worldPusatBridge2=" + main.worldPusatBridge2Repaired
-            + " houseFinalRepaired=" + main.houseFinalRepaired
-            + " worldChestClaimed=" + ChestFeature.worldChestClaimed
-            + " wp1Chest=" + ChestFeature.worldPusatChest1Claimed
-            + " wp2Chest=" + ChestFeature.worldPusatChest2Claimed
-            + " worldCoinCollected=" + main.worldCoinCollected
-            + " => all=" + all + " gameCompletedShown=" + main.gameCompletedShown);
-
-        if (all && !main.gameCompletedShown) {
-            System.out.println("[completion] conditions met: notifying listeners");
-            main.gameCompletedShown = true;
-            main.gameEventManager.notifyGameCompleted();
+        if (all) {
+            if (!main.gameCompletedShown || main.gameCompleteStage == null) {
+                activateGameCompleted(main);
+            } else {
+                main.gameCompletedLocked = true;
+            }
+            try {
+                main.gameEventManager.notifyGameCompleted();
+            } catch (Exception ignored) {
+            }
         }
     }
 

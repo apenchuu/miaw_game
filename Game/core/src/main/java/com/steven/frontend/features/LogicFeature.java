@@ -119,5 +119,8 @@ public class LogicFeature {
                 }
             } catch (Exception e) {}
         }
+
+        // Ensure completed GUI appears as soon as all conditions are met, even if no other event fires.
+        com.steven.frontend.features.CompletionFeature.checkForGameCompletion(main);
     }
 }

@@ -5,7 +5,7 @@ async function getProgress(playerId) {
 
 async function upsertProgress(playerId, progress) {
   const {
-    coins = 10000,
+    coins = 0,
     player_fatigue = 0.0,
     current_day = 1,
     game_time = 6.0,

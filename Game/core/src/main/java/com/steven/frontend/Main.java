@@ -95,7 +95,7 @@ public class Main extends ApplicationAdapter {
         public int harvestedBit = 0;
         public int harvestedWheat = 0;
         public int keys = 0;
-        public int coins = 10000;
+        public int coins = 0;
         
         public boolean plantBit() {
             if (bitSeeds > 0) {

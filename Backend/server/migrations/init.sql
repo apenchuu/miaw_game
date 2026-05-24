@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS users (
 
 CREATE TABLE IF NOT EXISTS player_progress (
     player_id UUID PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,
-    coins INT DEFAULT 10000,
+    coins INT DEFAULT 0,
     player_fatigue REAL DEFAULT 0.0,
     current_day INT DEFAULT 1,
     game_time REAL DEFAULT 6.0,
